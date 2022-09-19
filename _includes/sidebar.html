@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- <div class="section">
+        <nav class="navbar"> 
+            <span class="open">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </a>
+            </span>
+            <h1 >GitHub Classroom</h1>
+        </nav>
+    </div> -->
+    <nav class="side-nav">
+        <div id="side-head">
+            <div id="side-head-text">GitHub Classroom
+            </div>
+        </div>
+        <ul>
+           <div class="active"><a href="/">Home</a></div>
+           <div class="active"><a href="/about.html">About</a></div>
+            <div class="section">Tutorials</div>
+              <!-- <a href="#" class="feat-btn">Tuorials
+              <span class="fas fa-caret-down first"></span>
+              </a> -->
+              <div>
+                <a href="/how_to_get_started.html" class="subpoint">How to get started</a>
+                <a href="#" class="subpoint">How to transfer your course content</a>
+              </div>
+            </div>
+            <div class="section">Services</div>
+            <a href="#" class="subpoint">App Design</a>
+            <a href="#" class="subpoint">Web Design</a>
+        </nav>
+
+
+    <!-- <div id="side-menu" class="side-nav">
+        <h1>GitHub Classroom</h1> -->
+        <!-- <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a> -->
+        <!-- <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="#">Tutorials</a>
+        <a href="#">FAQ</a>
+        <nav>
+            {% for item in site.data.navigation %}
+              <a href="{{ item.link }}" {% if page.url == item.link %}class="lightblue"{% endif %}>{{ item.name }}</a>
+            {% endfor %}
+          </nav>
+    </div> -->
+    <!-- top menu bar -->
+    <!-- <div class="section">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <a href="#"><i class="fas fa-bars"/a>
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <script>
+        var hamburger = document.querySelector(".hamburger");
+            hamburger.addEventListener("click", function(){
+                document.querySelector("body").classList.toggle("active");
+    })
+    </script> -->
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById("side-menu").style.width= "250px";
+            document.getElementById("main").style.marginLeft= "250px";
+        }
+    </script>
+
+<script>
+    function closeSlideMenu(){
+        document.getElementById("side-menu").style.width= "0px";
+        document.getElementById("main").style.marginLeft= "0px";
+    }
+</script>
+</body>
+</html>
+

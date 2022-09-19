@@ -83,6 +83,7 @@ DEPENDENCIES
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
   jekyll-sass-converter
+  jekyll-seo-tag
   jekyll-theme-slate (~> 0.2.0)
   minima (~> 2.5)
   tzinfo (~> 1.2)
