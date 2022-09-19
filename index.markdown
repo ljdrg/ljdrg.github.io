@@ -7,9 +7,11 @@ title: Home
 ---
 ![classroom.PNG](../assets/images/img-github-classroom.webp)
 
-<video width="480" height="320" controls="controls">
-  <source src="../assets/css/images/ILIAS.mp4" type="video/mp4">
-</video>
+
+
+https://user-images.githubusercontent.com/108076548/191022059-2db1a9f6-d825-4a89-9487-f49bf6ac3293.mp4
+
+
 
 <!-- <video src='C:/Users/leo-d/Videos/Captures/ILIAS.mp4' max-width=380 type="video/mp4"></video> -->
 
