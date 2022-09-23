@@ -1,9 +1,8 @@
 ---
 layout: default
-title: About
-permalink: /about.html
+title: What is GitHub Classroom?
+permalink: /what_is_GHCR.html
 ---
-## What is GitHub Classroom?
 
 GitHub Classroom uses the GitHub API to enable the GitHub workflow for education. It is designed to enable instructors to efficiently manage and organize their courses on GitHub. With GitHub Classroom you can make use of the industry-standard workflow where students can show versions of their project, check in on milestones and present the final product. You create an assignment with starter code and directions, send an invitation link to your students and they all get their own copy of the assignment (repository) where they can start working without affecting others.
 
