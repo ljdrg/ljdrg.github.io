@@ -3,15 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: About
 ---
-![classroom.PNG](../assets/images/img-github-classroom.webp)
+## What is GitHub Classroom?
 
-{% include youtube.html name="ILIAS.mp4" %}
+GitHub Classroom uses the GitHub API to enable the GitHub workflow for education. It is designed to enable instructors to efficiently manage and organize their courses on GitHub. With GitHub Classroom you can make use of the industry-standard workflow where students can show versions of their project, check in on milestones and present the final product. You create an assignment with starter code and directions, send an invitation link to your students and they all get their own copy of the assignment (repository) where they can start working without affecting others.
 
-## What is git?
+## For whom is GitHub Classroom interesting?
 
-Git is a version control system which helps you to keep your work well-structured and save. It notices conflicts between changes made by different people and synchronizes files between different computers.
+Anyone who teaches a computationally-involved course, working with scripts (e.g., stats courses) or programming, can benefit from GitHub Classroom.
 
-Git works with repositories. A repository consists of two parts: (1) your project (your files and directories that you create and edit directly) and (2) the extra information that Git records about the project’s history.
+## Why use GitHub Classroom?
+
+GitHub Classroom facilitates your work with managing and organizing your coding class. It is compatible with any programming language (Python, R, Java, ..) and you can easily reuse a course structure you created for other courses. GitHub Classroom makes grading code-based assignments and exams a lot easier with its integrated autograding tools. It also allows for more efficient and valuable feedback thanks to the in-line feedback option. That means you can directly point your students to the problems in their code, avoiding unnecessary discussions and misunderstandings. Furthermore, using GitHub will provide you with new ways to prevent and identify plagiarism. 
+
+Odds are that almost anyone interested in a profession that has something to do with programming will be exposed to git or another version control system sooner or later. GitHub is one of the most advanced development platforms in the world and widely used in academia and industry. To best prepare your students for the demands of their future jobs you should get them in touch with git and GitHub. GitHub Classroom is the ideal way to integrate GitHub in your students curriculum and help them gain some initial experince with GitHub. So in the end, it’s a win-win for both teachers and students.
+
+
+
 
