@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Terminal-based git operations
+title: Terminal-based Git operations
 permalink: /terminal_git_operations.html
 ---
 ## Installing Bash
 
-It’s easiest to interact with git via “Bash” the Linux terminal. For windows users there is a Windows Subsystem for Linux (WSL) with which you can install a Linux distribution, e.g. Ubuntu. The WSL enables you to use Linunx tools like Bash. For details on how to install Linux on Windows see the [Windows documentation](https://docs.microsoft.com/en-us/windows/wsl/install).
+It’s easiest to interact with Git via “Bash” the Linux terminal. For windows users there is a Windows Subsystem for Linux (WSL) with which you can install a Linux distribution, e.g. Ubuntu. The WSL enables you to use Linunx tools like Bash. For details on how to install Linux on Windows see the [Windows documentation](https://docs.microsoft.com/en-us/windows/wsl/install).
 
 You can use bash via VSCode. In VSCode go on the “terminal” tab and click on the arrow next to the plus sign. A list of various terminals will open, select “Git Bash”.
 

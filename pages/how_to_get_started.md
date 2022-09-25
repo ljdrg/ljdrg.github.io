@@ -65,16 +65,3 @@ If you want to use autograding make sure that you follow all of the steps in: [H
 
 In general, you want to enable the “feedback pull request” option. This will automatically open a pull request when the student accepts an assignment and allows you to give direct feedback, line by line, on the students code.
 
-### Structuring your courses in GitHub Classroom
-
-1. Create a GitHub organization for the course
-    
-   ![organizations_gh.PNG](../assets/images/organizations_gh.PNG)
-    <!-- <img src="../assets/images/organizations_gh.PNG" alt="drawing" style="width:500px;"/> -->
-    
-2. Set up a GitHub classroom in the course organization for the semester’s class roster
-    
-    ![classrooms_gh.PNG](../assets/images/classrooms_gh.PNG)
-    
-3. Create assignments with the lesson content
-4. Use template repositories to reuse a course structure you have created before

@@ -1,7 +1,11 @@
 /*******************************************************************************
 Sidebar
 *******************************************************************************/
-  
+  .text-img{
+    object-position: 50% 50%;
+  }  
+
+
   .side-nav{
     height:100%;
     width:250px;
@@ -119,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
 }
 
@@ -194,6 +198,7 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
+  object-position: 50% 50%;
 
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
