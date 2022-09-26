@@ -15,15 +15,15 @@ Watch this video or read the text below:
 
 Go to [GitHub Classroom](https://classroom.github.com/) and sign in with you GitHub account. The first time using GitHub Classroom you have to authorize Classroom for your GitHub account, click “authorize GitHub”. 
 
-Then you are asked to “create your first classroom”. You can then either create an organization or grant access to an existing organization 
+Then you are asked to “create your first classroom”. You can then either create an organization or grant access to an existing organization. 
 
-The organization you choose for your classroom is the place where all of your student’s assignment repositories will live. Each student will have their own assignment repository where they will do their work.
+
 
 ### Creating a new organization
 
 The organization you choose for your classroom is the place where all of your student’s assignment repositories will live. For every assignment you create in GitHub Classroom new repositories are added to this organization, one for every student accepting an assginment. So let’s say you have 5 students and 2 assignments in your GitHub classroom and all 5 students have accepted these two assignments. That means that in your GitHub organization you have 10 repositories.
 
-When creating a new organization you have to give it a name (e.g. course name) and choose if you want to connect it with a personal or a business account. Choose the personal account option. After clicking “Next” you come back to the GitHub Classroom site. You have now created a new existing organization
+When creating a new organization you have to give it a name (e.g. the course name) and choose if you want to connect it with a personal or a business account. Choose the personal account option. After clicking “Next” you come back to the GitHub Classroom site. You have now created a new organization.
 
 ### Grant access to an existing organization
 
@@ -35,9 +35,9 @@ Select an organization. Next you are asked to name your classroom (e.g. course_n
 
 ### Adding TAs
 
-You have the opportunity to add TAs in GitHub Classroom. Unfortunately, to use this option directly via GitHub Classroom you have to make those accounts also “owners” of the classroom. As this is an unnecessary risk (owners have the power to modify and delete items in the repository) it is advised to add TAs through the GitHub organization directly. 
+You have the opportunity to add TAs in GitHub Classroom. Unfortunately, to use this option directly via GitHub Classroom you have to make those accounts also “owners” of the classroom. As this is an unnecessary risk (owners have the power to modify and delete items in the repository). Therfore, it is advised to add TAs through the GitHub organization directly. 
 
-You set the organization permissions to read only and add the TAs as members. That way TAs will still be able to review all student repositories but do only have reading rights (→ [how to cahnge base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization)).
+To do so, you set the organization permissions to read only and add the TAs as members. That way TAs will still be able to review all student repositories but do only have reading rights ([how to change base permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/setting-base-permissions-for-an-organization)).
 
 ### Adding a student roster
 
@@ -46,10 +46,11 @@ Watch this video or read the text below:
 
 There are three ways to add your student roster:
 
-1. Import students from Canvas
-You can configure GitHub Classroom as an external app for Canvas to import roster data into your classroom. For more information go to the following website: [connect Canvas to GitHub](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-to-github-classroom)    
-2. Upload a csv or text file with student identifiers (either student IDs, email addresses, names,..)
-3. Directly type student identifiers into the text field
+1. Import students from Canvas.
+
+    You can configure GitHub Classroom as an external app for Canvas to import roster data into your classroom. For more information go to the following website: [connect Canvas to GitHub](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-to-github-classroom)    
+2. Upload a csv or text file with student identifiers (either student IDs, email addresses, names,..).
+3. Directly type student the identifiers into the text field.
 
 Once students have been imported you can update them as needed. Further students can be added by sinking them with Canvas, uploading another csv file or manually adding students via the text field. 
 

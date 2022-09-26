@@ -5,14 +5,15 @@ permalink: /structuring_courses.html
 ---
 
 
-1. Create a GitHub organization for the course
+1. Create a GitHub organization for the course.
     
-   ![organizations_gh.PNG](../assets/images/organizations_gh.PNG)
-    <!-- <img src="../assets/images/organizations_gh.PNG" alt="drawing" style="width:500px;"/> -->
+   <!-- ![organizations_gh.PNG](../assets/images/organizations_gh.PNG) -->
+    <img src="../assets/images/organizations_gh.PNG" alt="drawing" style="width:400px;"/>
     
-2. Set up a GitHub classroom in the course organization for the semester’s class roster
+2. Set up a GitHub classroom in the course organization for the semester’s class roster.
     
-    ![classrooms_gh.PNG](../assets/images/classrooms_gh.PNG)
+    <!-- ![classrooms_gh.PNG](../assets/images/classrooms_gh.PNG) -->
+    <img src="../assets/images/classrooms_gh.PNG" alt="drawing" style="width:400px;"/>
     
-3. Create assignments with the lesson content
-4. Use template repositories to reuse a course structure you have created before
+3. Create assignments with the lesson content.
+4. Use template repositories to reuse a course structure you have created before.

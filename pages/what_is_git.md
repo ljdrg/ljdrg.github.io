@@ -10,22 +10,22 @@ Git is an open-source version control system which helps you to keep your work w
 
 ## Repositories
 
-Git works with repositories. A repository consists of two parts: (1) your project meaning your files and directories that you create and edit directly; and (2) the extra information that Git records about the project’s history.
+Git works with repositories. A repository consists of two parts: (1) your project, meaning your files and directories that you create and edit directly; and (2) the extra information that Git records about the project’s history.
 
-So you want to create separate repository for your different project. In case of GitHub Classroom each of your students will get their own repository without affecting the repositories of other students.
+ In case of GitHub Classroom each of your students will get their own repository without affecting the repositories of other students.
 
 ## Template Repositories
 
 You can make an existing repository a template, so you and others can generate new repositories with the same directory structure, branches, and files. Template repositories are an easy way to reuse your course material for another semester. 
-For more information on GitHub Template Repositories see: [Template Repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
+For more information on GitHub Template Repositories and how to create one see: [Template Repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
 
 ## GitHub
 
-GitHub is a cloud-based hosting service for Git repositories. Anyone can sign up and create a GitHub account for free. You can create private and public repositories create organizations or become a member in one.
+GitHub is a cloud-based hosting service for Git repositories. Anyone can sign up and create a GitHub account for free. You can create private and public repositories, create organizations or become a member in one.
 
 ## GitHub organization
 
-A GitHub organization is an umbrella account on GitHub where you can store all your repositories. The organization you choose for your classroom is the place where all of your student’s assignment repositories will live. Each student will have their own assignment repository where they will do their work in.
+A GitHub organization is an umbrella account on GitHub where you can store all your repositories. The organization you choose for your classroom is the place where all of your student’s assignment repositories will live. Each student will have their own assignment repository.
 
 
 

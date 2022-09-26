@@ -18,7 +18,7 @@ permalink: /resources_ghcr.html
 
 **[Autograding assignments](https://bruceelgort.com/2022/05/02/auto-grading-assignments-with-github-classroom/)**
 
-**[Example roll out for set up of a course in GitHub Classroom with R](https://happygitwithr.com/classroom-overview.html)**
+**[Example roll out of a course in GitHub Classroom with R](https://happygitwithr.com/classroom-overview.html)**
 
 ## Videos
 
