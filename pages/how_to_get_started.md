@@ -55,13 +55,3 @@ Once students have been imported you can update them as needed. Further students
 
 When students accept an assignment they are prompted to link their GitHub account to the roster themselves. If a student chooses the wrong identifier you can unlink the GitHub account from that identifier.
 
-### Creating an assignment
-
-When creating an assignment you have various options to choose from. You can set a deadline, specify wether it's supposed to be an individual or group assignment, set the repository visibility to private or public...
-
-For more detailed information go to this website: [Creating assignments](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-individual-assignment)
-
-If you want to use autograding make sure that you follow all of the steps in: [How to set up autograding](/autograding.html)
-
-In general, you want to enable the “feedback pull request” option. This will automatically open a pull request when the student accepts an assignment and allows you to give direct feedback, line by line, on the students code.
-

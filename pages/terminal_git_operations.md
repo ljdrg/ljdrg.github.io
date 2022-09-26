@@ -11,7 +11,7 @@ You can use bash via VSCode. In VSCode go on the “terminal” tab and click on
 
 ![terminal.PNG](..\assets\images\terminal.PNG)
 
-Great! Now we can start with the actual git commands.
+Great! Now we can start with the actual Git commands.
 
 ## Git commands
 

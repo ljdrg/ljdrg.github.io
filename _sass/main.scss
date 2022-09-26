@@ -1,11 +1,25 @@
 /*******************************************************************************
 Sidebar
 *******************************************************************************/
-  .text-img{
-    object-position: 50% 50%;
-  }  
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d1d0d0;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(163, 162, 162);
+}
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: rgb(126, 126, 126);
+// }
   .side-nav{
     height:100%;
     width:250px;
@@ -198,7 +212,6 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
-  object-position: 50% 50%;
 
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
