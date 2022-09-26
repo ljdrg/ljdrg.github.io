@@ -44,7 +44,7 @@ To save the changes in the staging area, you use the command `git commit` . It s
 
 `git commit -m “short message”` 
 
-If you run `git commit` on it’s own a text editor will open in a new tab in VSCode. You enter your commit message, save it and close the tab by clicking on “x”.
+If you run `git commit` on it’s own a text editor will open. Enter your commit message and then close the text editor.
 
 Now that you have staged and committed the changes. You can “push” them to your git repository. 
 
