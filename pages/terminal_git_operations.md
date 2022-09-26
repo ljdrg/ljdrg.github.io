@@ -9,6 +9,7 @@ It’s easiest to interact with Git via “Bash” the Linux terminal. For windo
 
 You can use bash via VSCode. In VSCode go on the “terminal” tab and click on the arrow next to the plus sign. A list of various terminals will open, select “Git Bash”.
 
+
 ![terminal.PNG](..\assets\images\terminal.PNG)
 
 Great! Now we can start with the actual Git commands.
@@ -19,7 +20,7 @@ Great! Now we can start with the actual Git commands.
 
 You want to start with cloning your GitHub repository to your computer. Cloning means nothing else then creating a copy of that repository. To do so you need to have the repository’s URL or SSH key (to use the SSH option you first have to set up a SSH key for your GitHub account). You find these options when clicking on the “Code” button in your GitHub repository. 
 
-![code.PNG](assets\images\code.PNG)
+<img src="assets\images\code.PNG" width= 400px>
 
 The git command for cloning is: `git clone URL` (for “URL” enter the copied HTTPS link from your GH repository.)
 
