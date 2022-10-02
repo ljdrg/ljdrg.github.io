@@ -15,7 +15,7 @@ In VSCode go on the “terminal” tab and click on the arrow next to the plus s
 
 ## Installing Git
 
-To install Git, got to this website [Git download](https://git-scm.com/downloads) and choose the correct version for your operating system. Afte the download is completed, open the file and follow the instructions. For a detailed guide on the settings see: [Git installation guide](https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/). 
+To install Git, go to this website [Git download](https://git-scm.com/downloads) and choose the correct version for your operating system. Afte the download is completed, open the file and follow the instructions. For a detailed guide on the settings see: [Git installation guide](https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/). 
 
 Great! Now we can start with the actual Git commands.
 
