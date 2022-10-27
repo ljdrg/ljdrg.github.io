@@ -4,7 +4,7 @@ title: How to get started with GitHub Classroom
 permalink: /getting_started_with_GHCR.html
 ---
 
-## Prerequisits
+## Prerequisites
 
 First of all, you need a GitHub account. If you don’t have one already just go on the website of [GitHub](https://github.com/) and sign up for one.
 
