@@ -1,17 +1,46 @@
 ---
 layout: default
-title: What is GitHub Classroom?
+title: Reading Guide
 permalink: /
 ---
 
-GitHub Classroom uses the GitHub API to enable the GitHub workflow for education. It is designed to enable instructors to efficiently manage and organize their courses on GitHub. With GitHub Classroom you can make use of the industry-standard workflow where students can show versions of their project, check in on milestones and present the final product. You create an assignment with starter code and directions, send an invitation link to your students and they all get their own copy of the assignment (repository) where they can start working without affecting others.
+This documentation aims at providing an overview over Git, GitHub and GitHub Classroom.
 
-## For whom is GitHub Classroom interesting?
+## Section: 'Git' 
+The first section 'Git' explains what Git and GitHub are and how to set Git up and use it via the terminal.
 
-Anyone who teaches a computationally-involved course, working with scripts (e.g., stats courses) or programming, can benefit from GitHub Classroom.
+1. [What is Git?](/what_is_git.html)
+    1. [Version Control System](/what_is_git.html/#version-control-system)
+    2. [Repositories](/what_is_git.html/#repositories)
+    3. [GitHub](/what_is_git.html/#github)
+    
+2. [Terminal-based Git commands](/terminal_git_operations.html)
+    1. [Installing Bash](/terminal_git_operations.html/#installing-bash)
+    2. [Installing Git](/terminal_git_operations.html/#installing-git)
+    3. [Git commands](/terminal_git_operations.html/#git-commands)
+    4. [Conflicts](/terminal_git_operations.html/#conflicts)
+    5. [More advanced operations](/terminal_git_operations.html/#more-advanced-operations)
+    6. [Git commands via VScode](/terminal_git_operations.html/#git-commands-via-vscode)
 
-## Why use GitHub Classroom?
+## Section: 'GitHub Classroom' 
+The second section 'GitHub Classroom' explains what GHCR is and everything else you need to know to set up your course with GHCR.
 
-GitHub Classroom facilitates your work with managing and organizing your coding class. It is compatible with any programming language (Python, R, Java, ..) and you can easily reuse a course structure you created for other courses. GitHub Classroom makes grading code-based assignments and exams a lot easier with its integrated autograding tools. It also allows for more efficient and valuable feedback thanks to the in-line feedback option. That means you can directly point your students to the problems in their code, avoiding unnecessary discussions and misunderstandings. Furthermore, using GitHub will provide you with new ways to prevent and identify plagiarism. 
+1. [What is GitHub Classroom?](/what_is_GHCR.html)
 
-Odds are that almost anyone interested in a profession that has something to do with programming will be exposed to git or another version control system sooner or later. GitHub is one of the most advanced development platforms in the world and widely used in academia and industry. To best prepare your students for the demands of their future jobs you should get them in touch with git and GitHub. GitHub Classroom is the ideal way to integrate GitHub in your students curriculum and help them gain some initial experince with GitHub. So in the end, it’s a win-win for both teachers and students.
+2. [Getting started with GHCR](/getting_started_with_GHCR.html)
+    1. [First time creating a Classroom](/getting_started_with_GHCR.html/#first-time-creating-a-classroom)
+    2. [Adding TAs](/getting_started_with_GHCR.html/#adding-tas)
+    3. [Adding a student roster](/getting_started_with_GHCR.html/#adding-a-student-roster)
+3. [Structuring your courses in GHCR](/structuring_courses.html)
+
+4. [Workflow for populating your GHCR course](/course_population.html)
+    1. [Workflow](/course_population.html/#workflow)
+    2. [Template repositories in GHCR](/course_population.html/#template-repositories-in-github-classroom)
+5. [Creating assignments](/creating_assignments.html)
+
+6. [How to set up autograding](/autograding.html)
+
+7. [How students submit assignments](/submit_assignments.html)
+    1. [Student workflow when using VScode as integrated IDE](/submit_assignments.html/#student-workflow-when-using-vscode-as-integrated-ide)
+
+8. [Further resources that help you get started](/resources_ghcr.html)

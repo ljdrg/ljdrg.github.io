@@ -6,8 +6,8 @@ permalink: /autograding.html
 
 
 
-#### Implementation
-##### Setting up your test file.
+## Implementation
+### Setting up your test file.
 Within your template file you will be using for the setup of the students assignment repositories you will need to create some specific files inside here.
 In the example where you will not be hiding the answers from your students you can simply create a test file.
 
@@ -18,7 +18,7 @@ Functions that you use to test assertions must also begin with "test_". For exam
 def test_assertions(variable):
 	assert variable == True
 ```
-##### Calling your test file:
+### Calling your test file:
 On the final page of creating your assignment click "add test", then "run Python".
 
 <img src="assets\images\Autograding_Initial.PNG" width=300px >
@@ -29,7 +29,7 @@ Below that you can simply add the filename of the test along with pytest in orde
 <img src="assets\images\Autograding_Details" width=300px >
 
 
-##### How to construct your own testing enviroment.
+### How to construct your own testing enviroment.
 
 I will outline a simple instance of a test file you can create here:
 

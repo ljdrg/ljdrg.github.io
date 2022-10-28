@@ -7,20 +7,39 @@ permalink: /terminal_git_operations.html
 
 It’s easiest to interact with Git via `Bash`; the Unix command processor. For Windows users there is a Windows Subsystem for Linux (WSL) with which you can install a Linux distribution (e.g., Ubuntu). WSL enables you to use the Linux Operating System of your choice via the command line. For details on how to install Linux on Windows see the [Windows documentation](https://docs.microsoft.com/en-us/windows/wsl/install).
 
-You can use Git directly via your terminal (Bash, Powershell), or an IDE. For example, in [VSCode](https://code.visualstudio.com/Download):
+## Installing Git
 
-- Navigate to the “terminal” tab (see below),
+To install Git go to this website [Git download](https://git-scm.com/downloads) and choose the correct version for your operating system (Linux/Unix if you are using WSL). After the download is completed, open the file and follow the instructions. For a detailed guide on the settings see: [Git installation guide](https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/). 
+
+You can use Git directly via your terminal (Bash, Powershell), or an IDE, for example, [VSCode](https://code.visualstudio.com/Download). Visual Studio Code (VSCode) is a code editor to develop, run and debug code.
+
+To enable Git in VS Code on Windows:
+
+- Go to 'File' > 'Preferences'
+- Go to 'Settings'
+- Type 'Git: Enabled' in the search bar
+- Make sure that the box is ticked
+
+To enable Git in VS Code on Mac:
+
+- Got to 'Code' > 'Preferences'
+- Go to 'Settings'
+- Type 'Git: Enabled' in the search bar
+- Make sure that the box is ticked
+
+To configure your Git Login, we will need to set your username and email address in Git.
+To do so, open the terminal: 
+
+- Navigate to the 'terminal' tab (see below),
 - click on the arrow next to the plus sign.
 
-A list of various terminals will open, select “Git Bash”.
+A list of various terminals will open, select 'Git Bash'.
 
 ![terminal.PNG](..\assets\images\terminal.PNG)
 
-> This needs some description of how to set git up in VSCode via a plug-in rather than terminal too.
+Set your commit email address in Git: `git config --global user.name "yourusername"`
 
-## Installing Git
-
-If you want to install Git separate from your IDE, go to this website [Git download](https://git-scm.com/downloads) and choose the correct version for your operating system (Linux/Unix if you are using WSL). After the download is completed, open the file and follow the instructions. For a detailed guide on the settings see: [Git installation guide](https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/). 
+Set your username in Git: `git config --global user.email "email@youremail.com"`
 
 Great! Now we can start with the actual Git commands.
 
@@ -82,7 +101,24 @@ Suppose something has changed in your GitHub repository and you want to get thos
 
 ## Conflicts
 
-> Need to add more here.
+Git can handle most merges on its own with automatic merging features. Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it. In these cases, Git cannot automatically determine what is correct. Conflicts only affect the developer conducting the merge, the rest of the team is unaware of the conflict. Git will mark the file as being conflicted and halt the merging process. It is then the developers' responsibility to resolve the conflict.
+
+### Types of merge conflicts
+A merge can enter a conflicted state at two separate points. When starting and during a merge process. The following is a discussion of how to address each of these conflict scenarios.
+
+#### Git fails to start the merge
+A merge will fail to start when Git sees there are changes in either the working directory or staging area of the current project. Git fails to start the merge because these pending changes could be written over by the commits that are being merged in. When this happens, it is not because of conflicts with other developer's, but conflicts with pending local changes. The local state will need to be stabilized using `git stash`, `git checkout`, `git commit` or `git reset`. 
+
+A merge failure on start will output the following error message: `error: Entry '<fileName>' not uptodate. Cannot merge. (Changes in working directory)`
+
+#### Git fails during the merge
+A failure DURING a merge indicates a conflict between the current local branch and the branch being merged. This indicates a conflict with another developers code. Git will do its best to merge the files but will leave things for you to resolve manually in the conflicted files. 
+
+A mid-merge failure will output the following error message: `error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes in staging area)`
+
+#### merging two branches with conflicts
+
+When there is a conflict during a merge, Git tells you that there's a problem, and running git status after the merge reminds you which files have conflicts that you need to resolve by printing both modified: beside the files' names. Inside the file, Git leaves markers to tell you where the conflicts occurred. In many cases, the destination branch name will be HEAD because you will be merging into the current branch. To resolve the conflict, edit the file to remove the markers and make whatever other changes are needed to reconcile the changes, then commit those changes.
 
 ## More advanced operations
 
@@ -92,11 +128,30 @@ If your current directory is a git repository you can list the remotes for this 
 
 To add a new remote use the command `git remote add remote-name URL`. Replace "remote-name" with the name for the new remote and "URL" with the copied HTTPS link from your GitHub repository.
 
-> Branching might be relevant to add.
-
 ### git status
 
 To get an overview on what’s going on in your repository you can use the `git status` command. It will show you which files have been changed but are not yet staged; which files are staged but have not yet been committed; and if you added new files also if a file is not yet tracked by Git and has to be added to the staging area.
+
+### Branching
+
+One of the reasons Git is popular is its support for creating branches, which allows you to have multiple versions of your work, and lets you track each version systematically.
+Each branch is like a parallel universe: changes you make in one branch do not affect other branches (until you merge them back together).
+
+`git branch`: lists all of the branches in a repository, the branch you are currently in will be shown with a * beside its name
+
+`git diff branch1..branch2`: shows the differences between two branches
+
+`git checkout branch`: switches to that branch (only works if all of your changes have been committed) 
+
+`git checkout -b branch`: creates a new branch and switches to it in one step
+
+Branching lets you create parallel universes; merging is how you bring them back together. When you merge one branch (call it the source) into another (call it the destination), Git incorporates the changes made to the source branch into the destination branch. If those changes don't overlap, the result is a new commit in the destination branch that includes everything from the source branch.
+
+`git merge source destination`: merges two branches
+
+## Git commands via VScode
+
+For an explanation on how to use the Git commands via the VScode interface rather than the terminal have a look at the [VScode docs](https://code.visualstudio.com/docs/sourcecontrol/overview).
 
 ## Further Resources
 
