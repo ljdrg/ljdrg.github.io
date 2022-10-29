@@ -7,7 +7,7 @@ permalink: /
 This documentation aims at providing an overview over Git, GitHub and GitHub Classroom.
 
 ## Section: 'Git' 
-The first section 'Git' explains what Git and GitHub are and how to set Git up and use it via the terminal.
+The first section 'Git' explains what Git and GitHub are and how to set Git up and use it via the terminal. If you're already familiar with Git you can skip this section.
 
 1. [What is Git?](/what_is_git.html)
     1. [Version Control System](/what_is_git.html/#version-control-system)
